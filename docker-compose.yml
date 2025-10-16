@@ -1,0 +1,8 @@
+
+services:
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: itube-consumer
+
